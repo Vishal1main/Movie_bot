@@ -145,7 +145,7 @@ async def start(client:Client, message):
                             InlineKeyboardButton('🪙 ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', callback_data='premium'),
                             ],
                             [
-                            InlineKeyboardButton('🎭 ʏᴏᴜʀ ᴘᴏɪɴᴛs ✨', callback_data=f'point#{message.from_user.id}'),
+                            InlineKeyboardButton('🎁 ᴘʀᴇᴍɪᴜᴍ ғʀᴇᴇ 🎁', callback_data=f'point#{message.from_user.id}'),
                             InlineKeyboardButton('🫠 ᴀʙᴏᴜᴛ 🚩', callback_data='about')
                             ],
                             [
@@ -172,7 +172,7 @@ async def start(client:Client, message):
             InlineKeyboardButton('🪙 ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', callback_data='premium'),
         ],
         [
-            InlineKeyboardButton('🎭 ʏᴏᴜʀ ᴘᴏɪɴᴛs ✨', callback_data=f'point#{message.from_user.id}'),
+            InlineKeyboardButton('🎁 ᴘʀᴇᴍɪᴜᴍ ғʀᴇᴇ 🎁', callback_data=f'point#{message.from_user.id}'),
             InlineKeyboardButton('🫠 ᴀʙᴏᴜᴛ 🚩', callback_data='about')
         ],
         [
@@ -224,7 +224,7 @@ async def start(client:Client, message):
             InlineKeyboardButton('🪙 ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', callback_data='premium'),
         ],
         [
-            InlineKeyboardButton('🎭 ʏᴏᴜʀ ᴘᴏɪɴᴛs ✨', callback_data=f'point#{message.from_user.id}'),
+            InlineKeyboardButton('🎁 ᴘʀᴇᴍɪᴜᴍ ғʀᴇᴇ 🎁', callback_data=f'point#{message.from_user.id}'),
             InlineKeyboardButton('🫠 ᴀʙᴏᴜᴛ 🚩', callback_data='about')
         ],
         [
