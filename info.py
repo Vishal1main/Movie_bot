@@ -15,7 +15,7 @@ def is_enabled(value, default):
 #main variables
 API_ID = int(environ.get('API_ID', '23171051'))
 API_HASH = environ.get('API_HASH', '10331d5d712364f57ffdd23417f4513c')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7412745436:AAFpEqAI1sGHNTFnkNJq3ANxoRgpoAhd7Z8')
+BOT_TOKEN = environ.get('BOT_TOKEN', '6463623908:AAFCavJYF8jcc7LaBidLeZSUyYR6kWkbEqk')
 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6987799874').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/TMR_DEVELOPER")
@@ -53,7 +53,7 @@ YEARS = [f'{i}' for i in range(2024 , 2002,-1 )]
 SEASONS = [f'season {i}'for i in range (1 , 23)]
 REF_PREMIUM = 30
 PREMIUM_POINT = 1500
-auth_channel = environ.get('AUTH_CHANNEL', '-1001937292511')
+auth_channel = environ.get('AUTH_CHANNEL', '-1002173111279')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002023455423'))
 request_channel = environ.get('REQUEST_CHANNEL', '-1002116256784')
