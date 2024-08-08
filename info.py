@@ -22,9 +22,9 @@ USERNAME = environ.get('USERNAME', "https://t.me/TMR_DEVELOPER")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002205504138'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/TMR_movie_request_group')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002065082779').split()]
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://tmr624062:2fS3ifhHtKRaLWQZ@cluster0.3gpzrlg.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://tmr624062:2jHSjmlmi4fjpbax@cluster0.zvpgry7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
-DATABASE_NAME = environ.get('DATABASE_NAME', "Lucifer")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Unique")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002205504138'))
 QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/e6b39d0544337ec05c670.jpg')
