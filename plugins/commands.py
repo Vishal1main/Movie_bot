@@ -246,7 +246,7 @@ async def start(client:Client, message):
             ],[
                 InlineKeyboardButton(text="ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ ❓", url=settings['tutorial']),
             ],[
-                InlineKeyboardButton('🪙 ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ 🪙', callback_data='premium'),
+                InlineKeyboardButton('🪙 ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ 🪙', callback_data='PREMIUM_TEXT'),
             ]]
             reply_markup=InlineKeyboardMarkup(buttons)
             if await db.user_verified(user_id): 
