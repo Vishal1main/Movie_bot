@@ -244,7 +244,7 @@ Yᴏᴜʀ <ul>ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴ</ul> ᴡɪʟʟ ʙᴇ ᴀᴄᴛɪᴠ
     MOVIES_UPDATE_TXT = """<b>#New_File_Added
 
 📻 ᴛɪᴛʟᴇ: {title}
-🎖 ʀᴀᴛɪɴɢ: {rating}
+⭐ ʀᴀᴛɪɴɢ: {rating} / 10 user ratings.
 🎭 ɢᴇɴʀᴇs: {genres}
 
 Description: {description}
