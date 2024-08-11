@@ -55,7 +55,7 @@ async def send_movie_updates(bot, file_name, file_id , post_mode):
     if not poster_url or not caption:
         return
     btn = [
-        [InlineKeyboardButton('🕹️ Click Here To Get File 🕹️', url=f'https://t.me/{temp.U_NAME}?start=pm_mode_file_{ADMINS[0]}_{file_id}')]
+        [InlineKeyboardButton('🔍 Search Here 🔍', url=f'https://t.me/TMR_movie_request_group')]
     ]
     reply_markup = InlineKeyboardMarkup(btn)
     movie_update_channel =await db.movies_update_channel_id()
