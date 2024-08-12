@@ -243,10 +243,9 @@ Yᴏᴜʀ <ul>ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴ</ul> ᴡɪʟʟ ʙᴇ ᴀᴄᴛɪᴠ
 
     MOVIES_UPDATE_TXT = """<b>#𝖭𝖾𝗐_𝖬𝗈𝗏𝗂𝖾_𝖴𝗉𝗅𝗈𝖺𝖽𝖾𝖽 ✅
 
-📺 Movie Name: <code>{title}</code>
+📺 Movie Name : <code>{title}</code>
 
-🎭 Genres: {genres}
-
+🎭 Genres : {genres}
 
 <blockquote>𝘕𝘰𝘸 𝘠𝘰𝘶 𝘊𝘢𝘯 𝘚𝘦𝘢𝘳𝘤𝘩 𝘛𝘩𝘪𝘴 𝘔𝘰𝘷𝘪𝘦 𝘐𝘯 𝘖𝘶𝘳 𝘔𝘰𝘷𝘪𝘦 𝘚𝘦𝘢𝘳𝘤𝘩 𝘎𝘳𝘰𝘶𝘱 Tab To Copy Movie Name And Search..</blockquote>
 
